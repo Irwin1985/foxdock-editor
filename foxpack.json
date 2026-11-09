@@ -3,7 +3,7 @@
   "kind": "foxdock-plugin",
   "id": "editor",
   "foxdockApi": 1,
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Small utilities for the code editor: a new GUID on the clipboard or at the cursor",
   "license": "MIT",
   "files": [

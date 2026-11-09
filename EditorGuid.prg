@@ -14,15 +14,13 @@
 * y sin llaves). Cuando «guid» era un plugin aparte, sus opciones iban en
 * "options": { "guid": {...} }: si solo está esa, se lee, y el log lo dice
 * una vez al cargar.
-*
-* Fichero en CP1252, con los acentos escritos.
 *==================================================================
 
 DEFINE CLASS EditorGuid AS Custom
 	cId = "guid"
 	oHost = .NULL.
 	cLast = ""
-	cLastClip = ""        && lo último que puso en el portapapeles (lo lee la suite)
+	cLastClip = ""        && lo último que puso en el portapapeles (para las pruebas)
 	lOldOptions = .F.     && las opciones vienen del sitio antiguo, options.guid
 
 	PROCEDURE Init

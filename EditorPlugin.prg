@@ -22,15 +22,13 @@
 *
 * Los módulos (ModuleList): guid (Create GUID, Insert GUID at cursor,
 * F11 en un editor).
-*
-* Fichero en CP1252, con los acentos escritos.
 *==================================================================
 
 DEFINE CLASS EditorPlugin AS PluginBase
 	cId = "editor"
 	cTitle = "Editor"
 	nOrder = 930
-	cVersion = "0.2.0"
+	cVersion = "0.2.1"
 	oModules = .NULL.
 
 	*-- Los módulos del paquete, uno por línea: id, clase y .prg.
